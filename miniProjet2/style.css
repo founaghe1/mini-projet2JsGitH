@@ -1,0 +1,34 @@
+body{
+    background-image: url('liga.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ajout{
+    background-color: rgb(38, 162, 29);
+    transition-duration: 1s;
+}
+.ajout:hover{
+    background-color: rgba(217, 112, 13, 0.657);
+    transform:scale(1.03);
+    transition-duration: 1s;
+    
+}
+.save{
+    background-color: rgb(41, 154, 154);
+    color: aliceblue;
+}
+.save:hover{
+    background-color: rgba(29, 195, 195, 0.866);
+    color: aliceblue;
+}
+.annuler{
+    background-color: rgb(237, 9, 9);
+    color: aliceblue;
+}
+.annuler:hover{
+    background-color: rgba(226, 48, 13, 0.743);
+    color: aliceblue;
+}
+.ni{
+    opacity: 0.8;
+}
